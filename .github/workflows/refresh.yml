@@ -1,0 +1,34 @@
+name: refresh-playlist
+
+on:
+  schedule:
+    - cron: "0 3 * * *"        # 每天 11:00 Asia/Shanghai
+  workflow_dispatch:           # 手动触发
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Regenerate live.m3u from base.m3u + upstream lists
+        run: python3 scripts/refresh.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- live.m3u; then
+            echo "no change"
+            exit 0
+          fi
+          git config user.name  "tv-live bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add live.m3u
+          git commit -m "chore: refresh live.m3u ($(date -u +%Y-%m-%dT%H:%MZ))"
+          git push
