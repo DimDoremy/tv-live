@@ -89,3 +89,18 @@ MyTV 会自动插入它的“央视频/央视网”网页源，实测经常卡�
 若出现“播放失败 / 解码器初始化失败”（logcat: `OMX.MS.AVC.Decoder ... DECODER_INIT_FAILED`），
 说明硬件解码器被占用：先关掉 MyTV / 影视仓等其他播放器再进 StreamVault，重新选台即可。
 本机实测 CCTV-1（1080p H.264/TS）与东方卫视可正常出画，EPG 来自 m3u 的 `x-tvg-url`。
+
+## 频道序号
+
+`live.m3u` 里每个频道都带 `tvg-chno`，并按「真实台号」排序：
+
+- 央视频道：1→CCTV-1、2→CCTV-2 …… 17→CCTV-17
+- CCTV-5+、CCTV-4 Asia、CGTN 各语种、CETV 排在 18 之后，不占用 1–17 的号
+- 卫视频道按惯用顺序（北京、东方、湖南、浙江、江苏、安徽、山东……）编号
+- 分组名做了归一（`央视频道` → `📺央视频道`），重复频道已合并
+
+改完记得清 CDN 缓存，否则电视会继续拿到旧列表：
+
+```bash
+curl "https://purge.jsdelivr.net/gh/DimDoremy/tv-live@main/live.m3u"
+```
