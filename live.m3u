@@ -188,6 +188,7 @@ http://198.204.228.26/live/ahwshd.m3u8
 http://204.12.221.218:8181/3m1080p/ahws.m3u8
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=ahwshd
 http://104.152.209.49:8181/720p/ahws.m3u8
+http://125.43.249.76:9901/tsfile/live/1037_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-chno="7" tvg-name="山东卫视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/山东卫视.png" group-title="📡卫视频道",山东卫视
 http://118.122.144.115:8888/newlive/live/hls/35/live.m3u8
 http://120.76.248.139/live/bfgd/4200000099.m3u8
@@ -1074,6 +1075,7 @@ https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
 #EXTINF:-1 tvg-chno="43" tvg-name="浙江教科影视" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/浙江教科影视.png" group-title="☘️浙江频道",浙江教科影视
 http://ali-m-l.cztv.com/channels/lantian/channel04/1080p.m3u8
 https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
+http://ali-vl.cztv.com/channels/lantian/channel004/360p.m3u8
 #EXTINF:-1 tvg-chno="44" tvg-name="浙江教科影院" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/浙江教科影院.png" group-title="☘️浙江频道",浙江教科影院
 http://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8?zzhed
 http://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
@@ -1090,6 +1092,7 @@ http://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
 http://ali-m-l.cztv.com/channels/lantian/channel007/720p.m3u8
 https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
 https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8?
+http://ali-vl.cztv.com/channels/lantian/channel007/360p.m3u8
 #EXTINF:-1 tvg-chno="48" tvg-name="浙江民生" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/浙江民生.png" group-title="☘️浙江频道",浙江民生
 http://ali-m-l.cztv.com/channels/lantian/channel06/720p.m3u8
 http://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
