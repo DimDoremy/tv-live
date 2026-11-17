@@ -129,7 +129,6 @@ https://english-livebkali.cgtn.com/live/encgtn.m3u8
 https://0472.org/hls/cgtn.m3u8
 https://hlspackager.akamaized.net/live/DB/CGTN_ENGLISH/HLS/CGTN_ENGLISH.m3u8
 https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
-http://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
 #EXTINF:-1 tvg-chno="21" tvg-name="CGTN Documentary (1080p)" tvg-logo="" group-title="📺央视频道",CGTN Documentary (1080p)
 https://hlspackager.akamaized.net/live/DB/CGTN_DOCUMENTARY/HLS/CGTN_DOCUMENTARY.m3u8
 https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
@@ -412,7 +411,6 @@ http://live.zohi.tv/video/s10001-fztv-1/index.m3u8
 http://visit.jjbctv.com:1935/live/xwzhmb/playlist.m3u8
 #EXTINF:-1 tvg-chno="1" tvg-name="CGTN纪录" tvg-logo="https://tb.zbds.top/logo/CGTN纪录.png" group-title="📚纪录频道",CGTN纪录
 https://0472.org/hls/cgtnd.m3u8
-https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
 #EXTINF:-1 tvg-chno="2" tvg-name="九台" tvg-logo="https://tb.zbds.top/logo/九台.png" group-title="📚纪录频道",九台
 http://stream10.jlntv.cn/jiutaitv/sd/live.m3u8?zjild
 #EXTINF:-1 tvg-chno="3" tvg-name="奎屯汉语" tvg-logo="https://tb.zbds.top/logo/奎屯汉语.png" group-title="📚纪录频道",奎屯汉语
@@ -1358,11 +1356,9 @@ http://dassby.qqff.top:99/live/辽宁生活/index.m3u8
 #EXTINF:-1 tvg-chno="6" tvg-name="辽宁经济" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/辽宁经济.png" group-title="☘️辽宁频道",辽宁经济
 http://dassby.qqff.top:99/live/辽宁经济/index.m3u8
 http://120.76.248.139/live/bfgd/4200000480.m3u8
-http://120.76.248.139/live/bfgd/4200000076.m3u8
 #EXTINF:-1 tvg-chno="7" tvg-name="辽宁都市" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/辽宁都市.png" group-title="☘️辽宁频道",辽宁都市
 http://dassby.qqff.top:99/live/辽宁都市/index.m3u8
 https://ls.qingting.fm/live/1099/64k.m3u8
-http://120.76.248.139/live/bfgd/4200000068.m3u8
 #EXTINF:-1 tvg-chno="1" tvg-name="万州三峡移民" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/万州三峡移民.png" group-title="☘️重庆频道",万州三峡移民
 http://123.146.162.24:8017/c2F0hmi/1000/live.m3u8?zzhongqd
 http://123.146.162.24:8017/c2F0hmi/1000/live.m3u8
@@ -1375,7 +1371,6 @@ http://222.179.42.129:8181/hls1.m3u8
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cqxw
 #EXTINF:-1 tvg-chno="5" tvg-name="重庆汽摩" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/重庆汽摩.png" group-title="☘️重庆频道",重庆汽摩
 http://183.64.181.25:40023/rongchang01.m3u8
-http://120.76.248.139/live/bfgd/4200000168.m3u8
 #EXTINF:-1 tvg-chno="6" tvg-name="铜梁综合" tvg-logo="https://gitee.com/mytv-android/myTVlogo/raw/main/img/铜梁综合.png" group-title="☘️重庆频道",铜梁综合
 http://183.64.174.171:40123/ch1.m3u8?zzhongqd
 http://183.64.174.171:40123/ch1.m3u8
